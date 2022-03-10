@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro&display=swap');
+
+body {
+    display: flex;
+}
+
+#left-side, #right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+#left-side {
+    margin-left: 10%;
+    position: relative;
+}
+
+#right-side {
+    margin-right: 10%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#content h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 50px;
+}
+
+#banner {
+    background-color: whitesmoke;
+    opacity: 0.75;
+    position: absolute;
+    top: 36.5%;
+    width: 100%;
+}
+
+#right-side h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+}
+
+#description {
+    margin-top: 8.5%;
+    padding: 5%;
+    margin-right: 12.5%;
+}
+
+#signup-box {
+    background-color: white;
+    padding: 5%;
+    box-shadow: 0px 5px #E5E7EB;
+}
+
+#signup-box h1 {
+    font-family: "open-Sans", sans-serif;
+    color: rgb(85,85,85);
+}
+
+label, input {
+    font-family: monospace;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border-color: rgba(85, 85, 85, 0.15);
+    border-radius: 2.5px;
+}
+
+input[type="text"]:focus {
+    border-color: rgba(0, 119, 254, 0.884);
+    outline: none;
+    box-shadow: 0px 1px rgba(0, 119, 254, 0.884);
+
+}
+
+
+
+label {
+    padding-top: 10px;
+}
+
+#left-form, #right-form {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    gap: 75px;
+}
+
+
+#bottom-controls {
+    font-family: "Open Sans", sans-serif;
+    padding: 5%;
+}
+
+button {
+    width: 215px;
+    height: 50px;
+    border-radius: 5%;
+    border-style: none;
+    background-color: rgb(0, 120, 254);
+    color: white;
+    font-size: 16px;
+}
+
+.error {
+    border-color: rgba(254, 8, 0, 0.979) !important;
+    outline: none;
+    box-shadow: 0px 1px rgba(254, 8, 0, 0.979);
+}
+
+.error-text {
+    font-size: 10px;
+    color: rgba(254, 8, 0, 0.979);
+}
